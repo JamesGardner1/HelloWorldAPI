@@ -1,7 +1,7 @@
 var express = require('express')
 var routes = require('./routes/routes.js')
 var path = require('path')
-// Setting Up Server
+// Setting Up Serverr
 var app = express()
 
 app.use(express.static(path.join(__dirname, 'hello-vue', 'dist')))
